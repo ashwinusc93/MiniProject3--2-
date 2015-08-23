@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AddLocality" >
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:text="Submit" />
+
+    <EditText
+        android:id="@+id/locid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="LocalityID"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/did"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/locid"
+        android:layout_below="@+id/locid"
+        android:layout_marginTop="54dp"
+        android:ems="10"
+        android:hint="DistrictID"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/locality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/submit"
+        android:layout_alignLeft="@+id/did"
+        android:layout_marginBottom="29dp"
+        android:ems="10"
+        android:hint="Locality"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/dname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/did"
+        android:layout_centerVertical="true"
+        android:ems="10" 
+        android:hint="DistrictName"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="sans"/>
+
+</RelativeLayout>

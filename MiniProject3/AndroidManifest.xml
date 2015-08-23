@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rvce.miniproject3"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Med+Plus"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.rvce.miniproject3.MydatabaseProject"
+            android:label="Med+Plus" >
+        </activity>
+        <activity
+            android:name="com.rvce.miniproject3.WebView"
+            android:label="Med+Plus" >
+        </activity>
+        <activity
+            android:name="com.rvce.miniproject3.WebViewActivity"
+            android:label="Med+Plus" >
+        </activity>
+        <activity
+            android:name="com.rvce.miniproject3.WebviewActivity"
+            android:label="Med+Plus" >
+        </activity>
+        <activity
+            android:name="com.rvce.miniproject3.Options"
+            android:label="Med+Plus" >
+        </activity>
+        <activity
+            android:name="com.rvce.miniproject3.Admin"
+            android:label="Med+Plus" >
+        </activity>
+        <activity
+            android:name="com.rvce.miniproject3.AdminEdit"
+            android:label="Med+Plus" >
+        </activity>
+        <activity
+            android:name="com.rvce.miniproject3.AddMedicine"
+            android:label="Med+Plus" >
+        </activity>
+        <activity
+            android:name="com.rvce.miniproject3.WebView2"
+            android:label="Med+Plus" >
+        </activity>
+        <activity
+            android:name="com.rvce.miniproject3.AddShop"
+            android:label="Med+Plus" >
+        </activity>
+        <activity
+            android:name="com.rvce.miniproject3.WebView3"
+            android:label="Med+Plus" >
+        </activity>
+        <activity
+            android:name="com.rvce.miniproject3.AddLocality"
+            android:label="Med+Plus" >
+        </activity>
+        <activity
+            android:name="com.rvce.miniproject3.Inventory"
+            android:label="Med+Plus" >
+        </activity>
+        <activity
+            android:name="com.rvce.miniproject3.SplashScreen"
+            android:label="Med+Plus"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rvce.miniproject3.About"
+            android:label="Med+Plus" 
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+</manifest>

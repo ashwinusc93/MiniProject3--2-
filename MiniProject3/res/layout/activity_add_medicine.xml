@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AddMedicine" >
+
+    <EditText
+        android:id="@+id/medname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10" 
+        android:hint="MedicineName"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="sans"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Submit" />
+
+    <EditText
+        android:id="@+id/medid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/medname"
+        android:layout_below="@+id/medname"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="MedicineID"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/mrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/medid"
+        android:layout_below="@+id/medid"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="MRP"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/pc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/unit"
+        android:layout_below="@+id/mrp"
+        android:layout_marginTop="98dp"
+        android:ems="10"
+        android:hint="PharmaCompany"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pc"
+        android:layout_alignLeft="@+id/medid"
+        android:layout_marginBottom="68dp"
+        android:ems="10"
+        android:hint="Unit"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/submit"
+        android:layout_alignLeft="@+id/pc"
+        android:ems="10"
+        android:hint="StockQty"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/shopid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pc"
+        android:layout_below="@+id/pc"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="ShopID"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="sans" />
+
+</RelativeLayout>

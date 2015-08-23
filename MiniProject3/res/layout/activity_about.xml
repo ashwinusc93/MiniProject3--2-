@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_background"
+    tools:context=".About" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:text="About the App"
+        android:textStyle="bold"
+        android:textColor="#32cd32"
+        android:typeface="serif"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="35dp"
+        android:text="'Do you have the patience to walk around and searchfor medicines?'
+Well you need not do so!!..This app tells you in which shops the medicines are available in a particular area
+And you can head straight to the shop or contact the shop "
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:typeface="serif"
+        android:textColor="#00bfff"
+        android:textStyle="italic"/>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/textView1"
+        android:src="@drawable/windows_arrow" />
+
+</RelativeLayout>
